@@ -34,7 +34,6 @@ public class ToDoServiceImpl implements ToDoService {
         	theItem = result.get();
         }
         else {
-            // we didn't find the item
             throw new RuntimeException("Did not find item id - " + theId);
         }
 
